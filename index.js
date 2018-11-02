@@ -1,5 +1,6 @@
 // import the hello function
-const greeting = require('./hello');
+const { hello, goodbye } = require('./hello');
 
-greeting.hello('friend');
-greeting.gooodbye('loser');
+hello('friend');
+goodbye('loser');
+

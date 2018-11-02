@@ -8,6 +8,6 @@ function goodbye(whom) {
 
 // Export the hello function
 module.exports = {
-    'hello': hello,
-    'gooodbye': goodbye
+    hello, //equivalenet to "hello": hello
+    goodbye, // equivalent to "goodbye": goodbye
 };
